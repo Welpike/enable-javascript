@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enable-javascript - Welpike</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="stylesheet" href="./prismjs/prismjs.css">
+    <script src="./prismjs/prismjs.js"></script>
+</head>
+<body>
+    <nav id="nav_menu" class="fixed-top d-flex justify-content-between align-items-center py-2 px-3 border-bottom bg-white">
+        <h3 class="mb-0">
+            <a href="./index.html" class="btn btn-primary">
+                enable-javascript
+            </a>
+        </h3>
+        <ul class="d-flex align-items-center mb-0 gap-3 list-unstyled">
+            <li><a href="./use.html" class="nav-link">Use</a></li>
+            <li><a href="https://github.com/Welpike/enable-javascript/issues" class="nav-link">Report an Issue</a></li>
+            <li><a href="https://github.com/Welpike/enable-javascript" class="nav-link">Contribute</a></li>
+        </ul>
+    </nav>
+
+    <div style="height:55px;"></div>
+
+    <main id="main" class="px-3">
+        <div class="container">
+            <h3>How use to use enable-javascript for your project?</h3>
+        </div>
+        <div class="container my-5">
+            <h4 class="d-flex align-items-center gap-1">The <code>&lt;noscript&gt;</code> tag</h4>
+            <p>Include this code in your webpage.</p>
+<pre class="language-markup" tabindex="0"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>noscript</span><span class="token punctuation">&gt;</span></span>              
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>position:fixed;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>                    
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>This website requires JavaScript to function. Please enable it to browse on this website.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>                    
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">&gt;</span></span>                    
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>If you don't know what is JavaScript and/or you don't know how to enable it, please visit <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://welpike.github.io/enable-javascript<span class="token punctuation">"</span></span> <span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-decoration: underline;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>https://welpike.github.io/enable-javascript<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>                    
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>         
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>noscript</span><span class="token punctuation">&gt;</span></span></code></pre>
+            <p class="d-flex align-items-center gap-1">More informations about the <code>&lt;noscript&gt;</code> tag : <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript</a>.</p>
+            <hr>
+            <h4>URL params</h4>
+            <p>This is the list of the params that you can add to the url (after /?) :</p>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">param</th>
+                        <th scope="col">values</th>
+                        <th scope="col">description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">back</td>
+                        <td>'historyback' (default), 'closetab'</td>
+                        <td>Managing back feature (when the user enabled JS and needs to go back to your website)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">lang (soon)</td>
+                        <td>language abbreviation, default: 'en'</td>
+                        <td>Set the webpage language</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">theme (soon)</td>
+                        <td>theme name</td>
+                        <td>Customize webpage UI</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container text-center bg-dark text-white rounded p-4 my-5">
+            <p>Found a content problem on this page?</p>
+            <a href="https://github.com/Welpike/enable-javascript" class="btn btn-primary">Go on the GitHub repository</a>
+        </div>
+    </main>
+
+    <footer id="footer" class="px-3">
+        <p>&copy; 2023 <a href="https://github.com/Welpike" target="_blank">Welpike</a> - <a href="https://github.com/Welpike/enable-javascript/tree/main/LICENSE" target="_blank">License</a></p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
