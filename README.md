@@ -11,7 +11,7 @@ How can you explain to your users how to enable JavaScript in their browser? You
 
 ## Use
 
-Copy this URL : `https://welpike.github.io/enable-javascript/` and put it on your website.
+Follow the instructions at `https://welpike.github.io/enable-javascript/use.html`.
 
 The site will show to the user if JS is activated on them browser and display a guide for enable JS for each browser.
 
