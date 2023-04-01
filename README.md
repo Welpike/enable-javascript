@@ -8,7 +8,6 @@ How can you explain to your users how to enable JavaScript in their browser? You
 - Safari
 - Brave
 - Microsoft Edge
-- Internet Explorer
 
 ## Use
 
